@@ -297,6 +297,20 @@ main {
   transition: transform 0.2s linear;
 }
 
+.project__image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4em;
+}
+
+.project__image img {
+  width: 100%;
+  max-width: 18rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
 .project:hover {
   transform: translateY(-7px);
 }
